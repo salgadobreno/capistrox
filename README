@@ -25,7 +25,7 @@ set :local_repository, 'file:///home/#{local_user}/Dropbox/server/site-marina.gi
 #..
 
 Run: cap dropbox:install to install Dropbox
-It will call dropbox:install_service, then dropbox:sync_exclude and then dropbox:start
+It will run, then call dropbox:install_service, then dropbox:sync_exclude and then dropbox:start
 
 dropbox:install will install dropbox and download dropbox.py utility to it, then it will try 'dropbox.py start' and ask if you want to retry, see dropbox status or continue
 
@@ -41,4 +41,4 @@ Then there's dropbox:start, dropbox:stop, dropbox:status which control the servi
 And there's also dropbox:filestatus, it's utility from dropbox.py which tells you the status of the syncing for each folder, so you can fire your cap deploy!
 
 
-Sorry for the rushed README!
+Sorry for the rushed readme, I'll get to this later :(
