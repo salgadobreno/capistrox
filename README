@@ -38,7 +38,7 @@ dropbox:sync_exclude is another interactive task that will ask you which folders
 
 Then there's dropbox:start, dropbox:stop, dropbox:status which control the service
 
-And there's also dropbox:filestatus, it's utility from dropbox.py which tells you the status of the syncing for each folder, so you can fire your cap deploy!
+And there's also dropbox:filestatus, it's utility from dropbox.py which tells you the status of the syncing for each folder, so you can know when to fire your cap deploy!
 
 
 Sorry for the rushed readme, I'll get to this later :(
