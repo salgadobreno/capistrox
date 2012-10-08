@@ -20,8 +20,8 @@ Configure...
 #..
 server 'your-server-ip', :web, :app, :db, :primary => true
 
-set :repository, "file:///home/#{user}/Dropbox/server/site-marina.git"
-set :local_repository, 'file:///home/#{local_user}/Dropbox/server/site-marina.git'
+set :repository, "file:///home/#{user}/Dropbox/server/YOURAPP.git"
+set :local_repository, 'file:///home/#{local_user}/Dropbox/server/YOURAPP.git'
 #..
 
 **NOTE: it's probably easier to just install dropbox by hand**
