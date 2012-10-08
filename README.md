@@ -36,7 +36,7 @@ This is because it seems the first time you try to start it, it just warns you t
 
 dropbox:install_service will copy the dropbox service template to your /etc/init.d, chmod and update-rc.d
 
-**WARNING: Dropbox may overload your server CPU at first by trying to sync everything, it's important that you tell it to ignore all folders but the one you use for deploy(prefferably before it downloads millions of stuff to your server). I once had also had to Google how to limit a process's CPU usage because this happened and SSH would even get unresponsive(lol) **
+**WARNING: Dropbox may overload your server CPU at first by trying to sync everything, it's important that you tell it to ignore all folders but the one you use for deploy(prefferably before it downloads millions of stuff to your server). I once had also had to Google how to limit a process's CPU usage because this happened and SSH would even get unresponsive(lol)**
 dropbox:sync_exclude is another interactive task that will ask you which folders you don't want the Dropbox to sync on the server, you type the names and then enter 'f' to finnish.
 
 Then there's dropbox:start, dropbox:stop, dropbox:status which control the service
